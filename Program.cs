@@ -19,6 +19,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: MyAllowSpecificOrigins,
         builder => builder.WithOrigins(
+                "https://sismed-dirisle.googlesites.cloud",
                 "https://luiscarrillo7.github.io",
                 "https://sismed-frontend.onrender.com",
                 "https://consulta-sismed.googlesites.cloud",
